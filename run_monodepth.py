@@ -167,7 +167,7 @@ def run(input_path, output_path, model_path, model_type="dpt_hybrid", optimize=T
 
             if model_type == "dpt_hybrid_nyu":
                 prediction *= 1000.0
-
+  
         filename = os.path.join(
             output_path, os.path.splitext(os.path.basename(img_name))[0]
         )
